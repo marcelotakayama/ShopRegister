@@ -30,7 +30,7 @@ namespace ShopRegisterAPI {
             });
 
             services.AddDbContext<ProductDetailContext>(options =>
-            options.UseSqlServer());
+            options.UseSqlServer(Configuration.GetConnectionString("DevConnection")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
