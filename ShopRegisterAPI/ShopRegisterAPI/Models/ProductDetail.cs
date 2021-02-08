@@ -13,13 +13,13 @@ namespace ShopRegisterAPI.Models {
         [Column(TypeName ="nvarchar(100)")]
         public string ProductName { get; set; }
 
-        [Column(TypeName ="varchar=10")]
+        [Column(TypeName ="nvarchar=10")]
         public string ProductCode { get; set; }
 
-        [Column(TypeName ="varchar=5")]
+        [Column(TypeName ="nvarchar=5")]
         public string ProductRegisterDate { get; set; }
 
-        [Column(TypeName ="varchar=100000")]
-        public long ProductPrice { get; set; }
+        [Column(TypeName ="nvarchar=100000")]
+        public decimal ProductPrice { get; set; }
     }
 }
