@@ -20,6 +20,6 @@ namespace ShopRegisterAPI.Models {
         public string ProductRegisterDate { get; set; }
 
         [Column(TypeName ="nvarchar(100)")]
-        public decimal ProductPrice { get; set; }
+        public int ProductPrice { get; set; }
     }
 }
