@@ -7,35 +7,28 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using ShopRegisterAPI.Models;
 
-namespace ShopRegisterAPI.Controllers
-{
-    public class ProductDetailController : Controller
-    {
+namespace ShopRegisterAPI.Controllers {
+    public class ProductDetailController : Controller {
         private readonly ProductDetailContext _context;
 
-        public ProductDetailController(ProductDetailContext context)
-        {
+        public ProductDetailController(ProductDetailContext context) {
             _context = context;
         }
 
         // GET: ProductDetail
-        public async Task<IActionResult> Index()
-        {
+        public async Task<IActionResult> Index() {
             return View(await _context.ProductDetails.ToListAsync());
         }
 
         // GET: ProductDetail/Details/5
-        public async Task<IActionResult> Details(int? id)
-        {
-            if (id == null)
-            {
+        public async Task<IActionResult> Details(int? id) {
+            if (id == null) {
                 return NotFound();
             }
 
             var productDetail = await _context.ProductDetails
                 .FirstOrDefaultAsync(m => m.ProductId == id);
-            if (productDetail == null)
-            {
+            if (productDetail == null) {
                 return NotFound();
             }
 
@@ -43,8 +36,7 @@ namespace ShopRegisterAPI.Controllers
         }
 
         // GET: ProductDetail/Create
-        public IActionResult Create()
-        {
+        public IActionResult Create() {
             return View();
         }
 
@@ -53,10 +45,8 @@ namespace ShopRegisterAPI.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("ProductId,ProductName,ProductCode,ProductRegisterDate,ProductPrice")] ProductDetail productDetail)
-        {
-            if (ModelState.IsValid)
-            {
+        public async Task<IActionResult> Create([Bind("ProductId,ProductName,ProductCode,ProductRegisterDate,ProductPrice")] ProductDetail productDetail) {
+            if (ModelState.IsValid) {
                 _context.Add(productDetail);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
@@ -65,16 +55,13 @@ namespace ShopRegisterAPI.Controllers
         }
 
         // GET: ProductDetail/Edit/5
-        public async Task<IActionResult> Edit(int? id)
-        {
-            if (id == null)
-            {
+        public async Task<IActionResult> Edit(int? id) {
+            if (id == null) {
                 return NotFound();
             }
 
             var productDetail = await _context.ProductDetails.FindAsync(id);
-            if (productDetail == null)
-            {
+            if (productDetail == null) {
                 return NotFound();
             }
             return View(productDetail);
@@ -85,28 +72,19 @@ namespace ShopRegisterAPI.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("ProductId,ProductName,ProductCode,ProductRegisterDate,ProductPrice")] ProductDetail productDetail)
-        {
-            if (id != productDetail.ProductId)
-            {
+        public async Task<IActionResult> Edit(int id, [Bind("ProductId,ProductName,ProductCode,ProductRegisterDate,ProductPrice")] ProductDetail productDetail) {
+            if (id != productDetail.ProductId) {
                 return NotFound();
             }
 
-            if (ModelState.IsValid)
-            {
-                try
-                {
+            if (ModelState.IsValid) {
+                try {
                     _context.Update(productDetail);
                     await _context.SaveChangesAsync();
-                }
-                catch (DbUpdateConcurrencyException)
-                {
-                    if (!ProductDetailExists(productDetail.ProductId))
-                    {
+                } catch (DbUpdateConcurrencyException) {
+                    if (!ProductDetailExists(productDetail.ProductId)) {
                         return NotFound();
-                    }
-                    else
-                    {
+                    } else {
                         throw;
                     }
                 }
@@ -116,17 +94,14 @@ namespace ShopRegisterAPI.Controllers
         }
 
         // GET: ProductDetail/Delete/5
-        public async Task<IActionResult> Delete(int? id)
-        {
-            if (id == null)
-            {
+        public async Task<IActionResult> Delete(int? id) {
+            if (id == null) {
                 return NotFound();
             }
 
             var productDetail = await _context.ProductDetails
                 .FirstOrDefaultAsync(m => m.ProductId == id);
-            if (productDetail == null)
-            {
+            if (productDetail == null) {
                 return NotFound();
             }
 
@@ -136,16 +111,14 @@ namespace ShopRegisterAPI.Controllers
         // POST: ProductDetail/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> DeleteConfirmed(int id)
-        {
+        public async Task<IActionResult> DeleteConfirmed(int id) {
             var productDetail = await _context.ProductDetails.FindAsync(id);
             _context.ProductDetails.Remove(productDetail);
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
-        private bool ProductDetailExists(int id)
-        {
+        private bool ProductDetailExists(int id) {
             return _context.ProductDetails.Any(e => e.ProductId == id);
         }
     }
