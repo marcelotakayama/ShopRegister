@@ -168,3 +168,4 @@ C:\Users\mntakayama\Documents\Repositórios\ShopRegister\ShopRegisterAPI\ShopReg
 C:\Users\mntakayama\Documents\Repositórios\ShopRegister\ShopRegisterAPI\ShopRegisterAPI\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
 C:\Users\mntakayama\Documents\Repositórios\ShopRegister\ShopRegisterAPI\ShopRegisterAPI\obj\Debug\net5.0\ShopRegisterAPI.RazorTargetAssemblyInfo.cs
 C:\Users\mntakayama\Documents\Repositórios\ShopRegister\ShopRegisterAPI\ShopRegisterAPI\obj\Debug\net5.0\ShopRegisterAPI.Views.pdb
+C:\Users\mntakayama\Documents\Repositórios\ShopRegister\ShopRegisterAPI\ShopRegisterAPI\obj\Debug\net5.0\ShopRegisterAPI.csprojAssemblyReference.cache
