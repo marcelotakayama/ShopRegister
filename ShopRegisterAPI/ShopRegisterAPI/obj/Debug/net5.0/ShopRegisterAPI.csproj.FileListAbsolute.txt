@@ -43,7 +43,6 @@ C:\Users\mntakayama\Documents\Repositórios\ShopRegister\ShopRegisterAPI\ShopReg
 C:\Users\mntakayama\Documents\Repositórios\ShopRegister\ShopRegisterAPI\ShopRegisterAPI\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
 C:\Users\mntakayama\Documents\Repositórios\ShopRegister\ShopRegisterAPI\ShopRegisterAPI\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 C:\Users\mntakayama\Documents\Repositórios\ShopRegister\ShopRegisterAPI\ShopRegisterAPI\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\mntakayama\Documents\Repositórios\ShopRegister\ShopRegisterAPI\ShopRegisterAPI\obj\Debug\net5.0\ShopRegisterAPI.csprojAssemblyReference.cache
 C:\Users\mntakayama\Documents\Repositórios\ShopRegister\ShopRegisterAPI\ShopRegisterAPI\obj\Debug\net5.0\ShopRegisterAPI.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\mntakayama\Documents\Repositórios\ShopRegister\ShopRegisterAPI\ShopRegisterAPI\obj\Debug\net5.0\ShopRegisterAPI.AssemblyInfoInputs.cache
 C:\Users\mntakayama\Documents\Repositórios\ShopRegister\ShopRegisterAPI\ShopRegisterAPI\obj\Debug\net5.0\ShopRegisterAPI.AssemblyInfo.cs
@@ -154,3 +153,18 @@ C:\Users\mntakayama\Documents\Repositórios\ShopRegister\ShopRegisterAPI\ShopReg
 C:\Users\mntakayama\Documents\Repositórios\ShopRegister\ShopRegisterAPI\ShopRegisterAPI\bin\Debug\net5.0\runtimes\win-arm64\native\e_sqlite3.dll
 C:\Users\mntakayama\Documents\Repositórios\ShopRegister\ShopRegisterAPI\ShopRegisterAPI\bin\Debug\net5.0\runtimes\win-x64\native\e_sqlite3.dll
 C:\Users\mntakayama\Documents\Repositórios\ShopRegister\ShopRegisterAPI\ShopRegisterAPI\bin\Debug\net5.0\runtimes\win-x86\native\e_sqlite3.dll
+C:\Users\mntakayama\Documents\Repositórios\ShopRegister\ShopRegisterAPI\ShopRegisterAPI\bin\Debug\net5.0\ShopRegisterAPI.Views.dll
+C:\Users\mntakayama\Documents\Repositórios\ShopRegister\ShopRegisterAPI\ShopRegisterAPI\bin\Debug\net5.0\ShopRegisterAPI.Views.pdb
+C:\Users\mntakayama\Documents\Repositórios\ShopRegister\ShopRegisterAPI\ShopRegisterAPI\obj\Debug\net5.0\ShopRegisterAPI.RazorAssemblyInfo.cache
+C:\Users\mntakayama\Documents\Repositórios\ShopRegister\ShopRegisterAPI\ShopRegisterAPI\obj\Debug\net5.0\ShopRegisterAPI.RazorAssemblyInfo.cs
+C:\Users\mntakayama\Documents\Repositórios\ShopRegister\ShopRegisterAPI\ShopRegisterAPI\obj\Debug\net5.0\ShopRegisterAPI.TagHelpers.input.cache
+C:\Users\mntakayama\Documents\Repositórios\ShopRegister\ShopRegisterAPI\ShopRegisterAPI\obj\Debug\net5.0\ShopRegisterAPI.TagHelpers.output.cache
+C:\Users\mntakayama\Documents\Repositórios\ShopRegister\ShopRegisterAPI\ShopRegisterAPI\obj\Debug\net5.0\ShopRegisterAPI.RazorCoreGenerate.cache
+C:\Users\mntakayama\Documents\Repositórios\ShopRegister\ShopRegisterAPI\ShopRegisterAPI\obj\Debug\net5.0\Razor\Views\ProductDetail\Create.cshtml.g.cs
+C:\Users\mntakayama\Documents\Repositórios\ShopRegister\ShopRegisterAPI\ShopRegisterAPI\obj\Debug\net5.0\Razor\Views\ProductDetail\Delete.cshtml.g.cs
+C:\Users\mntakayama\Documents\Repositórios\ShopRegister\ShopRegisterAPI\ShopRegisterAPI\obj\Debug\net5.0\Razor\Views\ProductDetail\Details.cshtml.g.cs
+C:\Users\mntakayama\Documents\Repositórios\ShopRegister\ShopRegisterAPI\ShopRegisterAPI\obj\Debug\net5.0\Razor\Views\ProductDetail\Edit.cshtml.g.cs
+C:\Users\mntakayama\Documents\Repositórios\ShopRegister\ShopRegisterAPI\ShopRegisterAPI\obj\Debug\net5.0\Razor\Views\ProductDetail\Index.cshtml.g.cs
+C:\Users\mntakayama\Documents\Repositórios\ShopRegister\ShopRegisterAPI\ShopRegisterAPI\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\mntakayama\Documents\Repositórios\ShopRegister\ShopRegisterAPI\ShopRegisterAPI\obj\Debug\net5.0\ShopRegisterAPI.RazorTargetAssemblyInfo.cs
+C:\Users\mntakayama\Documents\Repositórios\ShopRegister\ShopRegisterAPI\ShopRegisterAPI\obj\Debug\net5.0\ShopRegisterAPI.Views.pdb
